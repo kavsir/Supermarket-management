@@ -1,0 +1,18 @@
+﻿@model Supermarket_management.Models.TaiKhoan
+
+<h2>Đăng nhập</h2>
+<form asp-action="Index" method="post">
+    <div>
+        <label>Tên đăng nhập</label>
+        <input asp-for="TenDangNhap" />
+    </div>
+    <div>
+        <label>Mật khẩu</label>
+        <input asp-for="MatKhau" type="password" />
+    </div>
+    <button type="submit">Đăng nhập</button>
+</form>
+@if (ViewBag.Error != null)
+{
+    <div style="color:red">@ViewBag.Error</div>
+}

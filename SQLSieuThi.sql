@@ -7,9 +7,15 @@ CREATE TABLE TaiKhoan (
     MaTaiKhoan INT PRIMARY KEY,
     TenDangNhap NVARCHAR(50),
     MatKhau NVARCHAR(255),
-    MaKhachHang INT,
     VaiTro NVARCHAR(20) 
 );
+INSERT INTO TaiKhoan (MaTaiKhoan, TenDangNhap, MatKhau, VaiTro) VALUES
+ (1, 'admin', 'admin123', 'Admin'),
+ (2, 'user', 'user123', 'User');
+
+
+
+
 
 CREATE TABLE KhachHang (
     MaKhachHang INT PRIMARY KEY,
@@ -21,6 +27,7 @@ CREATE TABLE KhachHang (
     NgayDangKy DATE,
     FOREIGN KEY (MaTaiKhoan) REFERENCES TaiKhoan(MaTaiKhoan)
 );
+
 
 CREATE TABLE QuanLy (
     MaQuanLy INT PRIMARY KEY,
@@ -104,8 +111,6 @@ CREATE TABLE ThanhToan (
     FOREIGN KEY (MaHoaDon) REFERENCES HoaDon(MaHoaDon)
 );
 
-ALTER TABLE KhachHang
-DROP CONSTRAINT FK_KhachHang_QuanLy;
 
-ALTER TABLE KhachHang
-DROP COLUMN MaQuanLy;
+ALTER TABLE TaiKhoan
+DROP COLUMN MaKhachHang;
