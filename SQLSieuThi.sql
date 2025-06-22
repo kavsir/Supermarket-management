@@ -13,19 +13,14 @@ INSERT INTO TaiKhoan (MaTaiKhoan, TenDangNhap, MatKhau, VaiTro) VALUES
  (1, 'admin', 'admin123', 'Admin'),
  (2, 'user', 'user123', 'User');
 
-
-
-
-
 CREATE TABLE KhachHang (
     MaKhachHang INT PRIMARY KEY,
-    MaTaiKhoan INT,
     HoTen NVARCHAR(100),
     Email NVARCHAR(100),
     SDT NVARCHAR(20),
     DiaChi NVARCHAR(255),
     NgayDangKy DATE,
-    FOREIGN KEY (MaTaiKhoan) REFERENCES TaiKhoan(MaTaiKhoan)
+    FOREIGN KEY (MaKhachHang) REFERENCES TaiKhoan(MaTaiKhoan)
 );
 
 
@@ -34,8 +29,7 @@ CREATE TABLE QuanLy (
     HoTen NVARCHAR(100),
     Email NVARCHAR(100),
     SDT NVARCHAR(20),
-    TaiKhoanID INT,
-    FOREIGN KEY (TaiKhoanID) REFERENCES TaiKhoan(MaTaiKhoan)
+    FOREIGN KEY (MaQuanLy) REFERENCES TaiKhoan(MaTaiKhoan)
 );
 
 
@@ -112,5 +106,3 @@ CREATE TABLE ThanhToan (
 );
 
 
-ALTER TABLE TaiKhoan
-DROP COLUMN MaKhachHang;
