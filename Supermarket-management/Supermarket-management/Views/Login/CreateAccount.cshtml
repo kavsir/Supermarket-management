@@ -10,11 +10,11 @@
 <form asp-action="CreateAccount" method="post" id="registerForm">
     <div>
         <label asp-for="TenDangNhap"></label>
-        <input asp-for="TenDangNhap" autocomplete="off" />
+        <input asp-for="TenDangNhap" autocomplete="off" id="TenDangNhap" />
     </div>
     <div>
         <label asp-for="MatKhau"></label>
-        <input asp-for="MatKhau" type="password" autocomplete="off" />
+        <input asp-for="MatKhau" type="password" autocomplete="off" id="MatKhau" />
     </div>
     @if (isAdmin)
     {
@@ -30,6 +30,26 @@
     {
         <input type="hidden" asp-for="VaiTro" value="User" />
     }
+
+    <!-- Thông tin khách hàng -->
+    <div>
+        <label for="HoTen">Họ tên</label>
+        <input type="text" name="HoTen" id="HoTen" required />
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email" required />
+    </div>
+    <div>
+        <label for="DiaChi">Địa chỉ</label>
+        <input type="text" name="DiaChi" id="DiaChi" required />
+    </div>
+    <div>
+        <label for="SoDienThoai">Số điện thoại</label>
+        <input type="text" name="SoDienThoai" id="SoDienThoai" required />
+    </div>
+    <!-- Thêm các trường khác nếu cần -->
+
     <button type="submit">Đăng ký</button>
 </form>
 

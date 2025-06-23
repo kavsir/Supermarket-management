@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "UNfPQxWRgqx66MmqFCnX0wkxd06HmiZqnVRi5qSTyoY=",
+=======
+  "Hash": "JjoQyxHIxmGEkzfknSVZHFyCqEF7LhrF0PnR6quARBA=",
+>>>>>>> 98cc5dae5fb7bd4548790a5ccf34cb33350d6028
   "Source": "Supermarket-management",
   "BasePath": "_content/Supermarket-management",
   "Mode": "Default",
@@ -6263,7 +6267,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:53:09 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 08:33:20 GMT"
+>>>>>>> 98cc5dae5fb7bd4548790a5ccf34cb33350d6028
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6308,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:53:09 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 08:33:20 GMT"
+>>>>>>> 98cc5dae5fb7bd4548790a5ccf34cb33350d6028
         },
         {
           "Name": "Cache-Control",
@@ -6337,7 +6349,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:53:09 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 08:33:20 GMT"
+>>>>>>> 98cc5dae5fb7bd4548790a5ccf34cb33350d6028
         },
         {
           "Name": "Cache-Control",
@@ -6382,7 +6398,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:53:09 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 08:33:20 GMT"
+>>>>>>> 98cc5dae5fb7bd4548790a5ccf34cb33350d6028
         },
         {
           "Name": "Cache-Control",
