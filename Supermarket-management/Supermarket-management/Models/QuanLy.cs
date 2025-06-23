@@ -13,7 +13,9 @@ public partial class QuanLy
 
     public string? Sdt { get; set; }
 
-    public virtual TaiKhoan MaQuanLyNavigation { get; set; } = null!;
+    public int? TaiKhoanId { get; set; }
 
     public virtual ICollection<SanPham> SanPhams { get; set; } = new List<SanPham>();
+
+    public virtual TaiKhoan? TaiKhoan { get; set; }
 }

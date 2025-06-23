@@ -1,0 +1,12 @@
+﻿@model Supermarket_management.Models.DanhMuc
+
+<h2>Chỉnh sửa danh mục</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="MaDanhMuc" />
+    <div class="form-group">
+        <label asp-for="TenDanhMuc"></label>
+        <input asp-for="TenDanhMuc" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>

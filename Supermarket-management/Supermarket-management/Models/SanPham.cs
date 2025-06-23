@@ -23,9 +23,9 @@ public partial class SanPham
 
     public int? MaQuanLy { get; set; }
 
-    public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
+    public int? MaDanhMuc { get; set; }
 
-    public virtual ICollection<ChiTietGioHang> ChiTietGioHangs { get; set; } = new List<ChiTietGioHang>();
+    public virtual DanhMuc? MaDanhMucNavigation { get; set; }
 
     public virtual QuanLy? MaQuanLyNavigation { get; set; }
 }

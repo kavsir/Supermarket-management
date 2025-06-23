@@ -13,7 +13,7 @@ public partial class TaiKhoan
 
     public string? VaiTro { get; set; }
 
-    public virtual KhachHang? KhachHang { get; set; }
+    public virtual ICollection<KhachHang> KhachHangs { get; set; } = new List<KhachHang>();
 
-    public virtual QuanLy? QuanLy { get; set; }
+    public virtual ICollection<QuanLy> QuanLies { get; set; } = new List<QuanLy>();
 }

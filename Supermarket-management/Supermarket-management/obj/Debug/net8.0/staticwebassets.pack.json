@@ -1,247 +1,275 @@
 {
   "Files": [
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Supermarket-management.bundle.scp.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Supermarket-management.bundle.scp.css",
       "PackagePath": "staticwebassets\\Supermarket-management.xoqazz2mq4.bundle.scp.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\favicon.ico",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\js\\site.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\0eae28fd00a8c95b0d696c274fe180a4.jpg",
+      "PackagePath": "staticwebassets\\images\\0eae28fd00a8c95b0d696c274fe180a4.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\1671701528277.jpg",
+      "PackagePath": "staticwebassets\\images\\1671701528277.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\__seele_vollerei_seele_and_seele_vollerei_honkai_and_1_more_drawn_by_sprygon__sample-423c95fbadb411eeffb4eb0b06a437b3.jpg",
+      "PackagePath": "staticwebassets\\images\\__seele_vollerei_seele_and_seele_vollerei_honkai_and_1_more_drawn_by_sprygon__sample-423c95fbadb411eeffb4eb0b06a437b3.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\illust_74628110_20230511_211937.jpg",
+      "PackagePath": "staticwebassets\\images\\illust_74628110_20230511_211937.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\illust_75872173_20220707_234428.jpg",
+      "PackagePath": "staticwebassets\\images\\illust_75872173_20220707_234428.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\tải xuống.jpg",
+      "PackagePath": "staticwebassets\\images\\tải xuống.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -7,6 +7,8 @@ public partial class KhachHang
 {
     public int MaKhachHang { get; set; }
 
+    public int? MaTaiKhoan { get; set; }
+
     public string? HoTen { get; set; }
 
     public string? Email { get; set; }
@@ -21,7 +23,7 @@ public partial class KhachHang
 
     public virtual ICollection<GioHang> GioHangs { get; set; } = new List<GioHang>();
 
-    public virtual TaiKhoan MaKhachHangNavigation { get; set; } = null!;
+    public virtual TaiKhoan? MaTaiKhoanNavigation { get; set; }
 
     public virtual ICollection<ThanhToan> ThanhToans { get; set; } = new List<ThanhToan>();
 }
