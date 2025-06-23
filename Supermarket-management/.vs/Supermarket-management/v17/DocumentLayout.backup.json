@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\chill\\Supermarket-management\\Supermarket-management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -102,11 +102,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Controllers\\Login.cs",
               "RelativeDocumentMoniker": "Supermarket-management\\Controllers\\Login.cs",
@@ -119,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\SanPham\\Edit.cshtml",
               "RelativeDocumentMoniker": "Supermarket-management\\Views\\SanPham\\Edit.cshtml",
@@ -179,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\SanPham\\Index.cshtml",
               "RelativeDocumentMoniker": "Supermarket-management\\Views\\SanPham\\Index.cshtml",
@@ -191,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\DanhMuc\\Edit.cshtml",
               "RelativeDocumentMoniker": "Supermarket-management\\Views\\DanhMuc\\Edit.cshtml",
@@ -251,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SanPham.cs",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Models\\SanPham.cs",
               "RelativeDocumentMoniker": "Supermarket-management\\Models\\SanPham.cs",
@@ -263,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SanPhamController.cs",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "Supermarket-management\\Controllers\\SanPhamController.cs",
@@ -299,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SqlsieuThiContext.cs",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Models\\SqlsieuThiContext.cs",
               "RelativeDocumentMoniker": "Supermarket-management\\Models\\SqlsieuThiContext.cs",
@@ -323,13 +323,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Supermarket-management\\Views\\Admin\\Index.cshtml",
               "ToolTip": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "Supermarket-management\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-22T05:28:41.927Z",
               "EditorCaption": ""
@@ -348,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Supermarket-management\\Views\\Login\\Index.cshtml",
@@ -356,11 +356,12 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Login\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T08:11:31.633Z"
+              "WhenOpened": "2025-06-22T08:11:31.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "Supermarket-management\\Views\\User\\Index.cshtml",
