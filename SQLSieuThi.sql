@@ -1,4 +1,3 @@
-﻿go
 CREATE DATABASE SQLSieuThi
 GO 
 USE SQLSieuThi
@@ -10,9 +9,6 @@ CREATE TABLE TaiKhoan (
     MatKhau NVARCHAR(255),
     VaiTro NVARCHAR(20) 
 );
-INSERT INTO TaiKhoan (MaTaiKhoan, TenDangNhap, MatKhau, VaiTro) VALUES
- (1, 'admin', 'admin123', 'Admin'),
- (2, 'user', 'user123', 'User');
 
 CREATE TABLE KhachHang (
     MaKhachHang INT PRIMARY KEY,
@@ -33,9 +29,13 @@ CREATE TABLE QuanLy (
     FOREIGN KEY (MaQuanLy) REFERENCES TaiKhoan(MaTaiKhoan)
 );
 
+CREATE TABLE DanhMuc (
+    MaDanhMuc INT PRIMARY KEY,
+    TenDanhMuc NVARCHAR(100)
+);
 
 CREATE TABLE SanPham (
-    MaSP INT IDENTITY(1,1) PRIMARY KEY,
+    MaSP INT PRIMARY KEY,
     TenSP NVARCHAR(100),
     MoTa NVARCHAR(MAX),
     GiaBan DECIMAL(18, 2),
@@ -48,6 +48,7 @@ CREATE TABLE SanPham (
     FOREIGN KEY (MaQuanLy) REFERENCES QuanLy(MaQuanLy),
 	FOREIGN KEY (MaDanhMuc) REFERENCES DanhMuc(MaDanhMuc)
 );
+
 
 CREATE TABLE GioHang (
     MaGioHang INT PRIMARY KEY,
@@ -119,9 +120,15 @@ INSERT INTO KhachHang (MaKhachHang, HoTen, Email, SDT, DiaChi, NgayDangKy) VALUE
 (2, N'Trần Thị B', 'user1@example.com', '0987654321', N'Hà Nội', GETDATE()),
 (3, N'Lê Văn C', 'user2@example.com', '0909123456', N'Hồ Chí Minh', GETDATE());
 
-INSERT INTO SanPham (MaSP, TenSP, MoTa, GiaBan, SoLuong, NgayNhap, TrangThai, HinhAnh, MaQuanLy) VALUES
-(1, N'Sữa tươi', N'Sữa tươi nguyên chất 1L', 25000, 100, GETDATE(), N'Còn hàng', 'sua.jpg', 1),
-(2, N'Bánh mì', N'Bánh mì Pháp giòn', 15000, 50, GETDATE(), N'Còn hàng', 'banhmi.jpg', 1);
+INSERT INTO DanhMuc (MaDanhMuc, TenDanhMuc) VALUES
+(1, 'Đồ uống'),
+(2, 'Thực phẩm'),
+(3, 'Gia dụng');
+
+
+INSERT INTO SanPham (MaSP, TenSP, MoTa, GiaBan, SoLuong, NgayNhap, TrangThai,MaDanhMuc, HinhAnh, MaQuanLy) VALUES
+(1, N'Sữa tươi', N'Sữa tươi nguyên chất 1L', 25000, 100, GETDATE(), N'Còn hàng',1, 'sua.jpg', 1),
+(2, N'Bánh mì', N'Bánh mì Pháp giòn', 15000, 50, GETDATE(), N'Còn hàng',2, 'banhmi.jpg', 1);
 
 INSERT INTO GioHang (MaGioHang, MaKhachHang, NgayTao, TongTien) VALUES
 (1, 2, GETDATE(), 40000),
@@ -144,27 +151,3 @@ INSERT INTO HoaDon (MaHoaDon, MaDonHang, NgayLap, TongTien, TrangThaiTT) VALUES
 
 INSERT INTO ThanhToan (MaThanhToan, MaKhachHang, MaHoaDon, NgayThanhToan, PhuongThuc, SoTien) VALUES
 (1, 2, 1, GETDATE(), N'Tiền mặt', 40000);
-
-/* thêm code vào SQL lượng*/
-CREATE TABLE DanhMuc (
-    MaDanhMuc INT PRIMARY KEY,
-    TenDanhMuc NVARCHAR(100)
-);
-Drop TABLE DanhMuc;
-
-ALTER TABLE SanPham ADD MaDanhMuc INT;
-ALTER TABLE SanPham
-ADD CONSTRAINT FK_SanPham_DanhMuc FOREIGN KEY (MaDanhMuc) REFERENCES DanhMuc(MaDanhMuc);
--- Ví dụ nếu khóa ngoại tên FK_SanPham_DanhMuc
-ALTER TABLE SanPham DROP CONSTRAINT FK_SanPham_DanhMuc;
-ALTER TABLE SanPham DROP COLUMN MaDanhMuc;
-
-
-INSERT INTO DanhMuc (MaDanhMuc, TenDanhMuc) VALUES
-(1, 'Đồ uống'),
-(2, 'Thực phẩm'),
-(3, 'Gia dụng');
-select* from DanhMuc;
-UPDATE DanhMuc
-SET TenDanhMuc = 'Gia dụng'
-WHERE MaDanhMuc = 3;
