@@ -1,4 +1,6 @@
+
 ﻿CREATE DATABASE SQLSieuThi
+
 GO 
 USE SQLSieuThi
 GO
