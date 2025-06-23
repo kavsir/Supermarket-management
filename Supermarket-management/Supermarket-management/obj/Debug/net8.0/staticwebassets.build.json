@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ta/0is7B5dNTqB3de028+IkqoSNATPi/zWGHtWR7lLU=",
+  "Hash": "Ezqe/9Bar26fwtOIR4PxLXD7Qdbsw/qou/QrwGDJPUM=",
   "Source": "Supermarket-management",
   "BasePath": "_content/Supermarket-management",
   "Mode": "Default",
@@ -204,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\illust_75872173_20220707_234428.jpg"
+    },
+    {
+      "Identity": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\illust_80874248_20220707_230256.png",
+      "SourceId": "Supermarket-management",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\",
+      "BasePath": "_content/Supermarket-management",
+      "RelativePath": "images/illust_80874248_20220707_230256#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hpu7w2ny2d",
+      "Integrity": "yxAcKg9N2oHqeoNwpUlrf8pzrYVbyCPQfV81GPtjO8E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\illust_80874248_20220707_230256.png"
     },
     {
       "Identity": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\images.jpg",
@@ -2038,6 +2059,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-AVJKMWr6m/QqSwuM1HxKBretcuZlTpScRu1TO2u2XPc="
+        }
+      ]
+    },
+    {
+      "Route": "images/illust_80874248_20220707_230256.hpu7w2ny2d.png",
+      "AssetFile": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\illust_80874248_20220707_230256.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2094407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxAcKg9N2oHqeoNwpUlrf8pzrYVbyCPQfV81GPtjO8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 15:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hpu7w2ny2d"
+        },
+        {
+          "Name": "label",
+          "Value": "images/illust_80874248_20220707_230256.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yxAcKg9N2oHqeoNwpUlrf8pzrYVbyCPQfV81GPtjO8E="
+        }
+      ]
+    },
+    {
+      "Route": "images/illust_80874248_20220707_230256.png",
+      "AssetFile": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\illust_80874248_20220707_230256.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2094407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxAcKg9N2oHqeoNwpUlrf8pzrYVbyCPQfV81GPtjO8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 15:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yxAcKg9N2oHqeoNwpUlrf8pzrYVbyCPQfV81GPtjO8E="
         }
       ]
     },

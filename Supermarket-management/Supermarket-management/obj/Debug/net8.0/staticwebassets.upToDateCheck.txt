@@ -5,6 +5,7 @@ wwwroot\images\0eae28fd00a8c95b0d696c274fe180a4.jpg
 wwwroot\images\1671701528277.jpg
 wwwroot\images\illust_74628110_20230511_211937.jpg
 wwwroot\images\illust_75872173_20220707_234428.jpg
+wwwroot\images\illust_80874248_20220707_230256.png
 wwwroot\images\images.jpg
 wwwroot\images\tải xuống.jpg
 wwwroot\js\site.js
