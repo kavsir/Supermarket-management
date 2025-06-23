@@ -60,7 +60,6 @@ namespace Supermarket_management.Controllers
             {
                 model.VaiTro = "User";
             }
-            // Regex: chỉ cho phép chữ cái không dấu, số, dấu gạch dưới
             var regex = new System.Text.RegularExpressions.Regex("^[A-Za-z0-9_]+$");
 
             if (string.IsNullOrWhiteSpace(model.TenDangNhap) || string.IsNullOrWhiteSpace(model.MatKhau))
@@ -75,7 +74,6 @@ namespace Supermarket_management.Controllers
                 return View(model);
             }
 
-            // Kiểm tra trùng tên đăng nhập
             var existingUser = _context.TaiKhoans
                 .FirstOrDefault(x => x.TenDangNhap == model.TenDangNhap);
             if (existingUser != null)
@@ -84,16 +82,47 @@ namespace Supermarket_management.Controllers
                 return View(model);
             }
 
-            // Không gán MaTaiKhoan, để DB tự động tăng
+            // Khi tạo mới TaiKhoan, KHÔNG gán MaTaiKhoan (để mặc định là null hoặc 0)
+            // Sau khi SaveChanges(), EF sẽ tự động lấy giá trị tự tăng từ DB
+            // Lấy mã lớn nhất hiện tại và +1
+            int maxMaTaiKhoan = _context.TaiKhoans.Any() ? _context.TaiKhoans.Max(t => t.MaTaiKhoan) : 0;
+
             var newAccount = new TaiKhoan
             {
+                MaTaiKhoan = maxMaTaiKhoan + 1,
                 TenDangNhap = model.TenDangNhap,
                 MatKhau = model.MatKhau,
                 VaiTro = model.VaiTro
             };
-
             _context.TaiKhoans.Add(newAccount);
             _context.SaveChanges();
+
+            // newAccount.MaTaiKhoan lúc này đã có giá trị mới từ DB
+
+
+            // Lấy thông tin khách hàng từ form
+            var hoTen = Request.Form["HoTen"];
+            var email = Request.Form["Email"];
+            var diaChi = Request.Form["DiaChi"];
+            var soDienThoai = Request.Form["SoDienThoai"];
+            var ngayDangKyStr = Request.Form["NgayDangKy"];
+            var ngayDangKy = DateOnly.FromDateTime(DateTime.Now);
+            // Lấy mã khách hàng lớn nhất hiện tại và +1
+            int maxMaKhachHang = _context.KhachHangs.Any() ? _context.KhachHangs.Max(k => k.MaKhachHang) : 0;
+
+            var khachHang = new KhachHang
+            {
+                MaKhachHang = maxMaKhachHang + 1,
+                HoTen = hoTen,
+                Email = email,
+                DiaChi = diaChi,
+                Sdt = soDienThoai,
+                NgayDangKy = ngayDangKy,
+                MaKhachHangNavigation = newAccount
+            };
+            _context.KhachHangs.Add(khachHang);
+            _context.SaveChanges();
+
 
             ViewBag.Success = "Tạo tài khoản thành công!";
             return View();
