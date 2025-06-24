@@ -1,16 +1,61 @@
-﻿@{
+﻿@model IEnumerable<Supermarket_management.Models.DonHang>
+@{
     ViewData["Title"] = "Đơn hàng";
 }
 
-<div class="container mt-5 text-center">
-    <h2 class="mb-4">Đơn hàng của bạn</h2>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Đơn hàng của bạn</h2>
 
-    <div class="alert alert-info">
-        Hiện chưa có sản phẩm nào trong đơn hàng.
-    </div>
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            Hiện chưa có sản phẩm nào trong đơn hàng.
+        </div>
+    }
+    else
+    {
+        foreach (var dh in Model)
+        {
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <strong>Mã đơn hàng:</strong> @dh.MaDonHang
+                    <span class="ms-3"><strong>Ngày đặt:</strong> @dh.NgayDat?.ToString("dd/MM/yyyy")</span>
+                    <span class="ms-3"><strong>Trạng thái:</strong> @dh.TrangThai</span>
+                </div>
+                <div class="card-body p-0">
+                    <table class="table mb-0">
+                        <thead>
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var ct in dh.ChiTietDonHangs)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="@(ct.MaSanPhamNavigation?.HinhAnh ?? "~/images/no-image.png")"
+                                             alt="@ct.MaSanPhamNavigation?.TenSp"
+                                             style="width:80px;height:80px;object-fit:cover;" />
+                                    </td>
+                                    <td>@ct.MaSanPhamNavigation?.TenSp</td>
+                                    <td>@ct.SoLuong</td>
+                                    <td>@ct.DonGia?.ToString("N0") VNĐ</td>
+                                    <td>@ct.ThanhTien?.ToString("N0") VNĐ</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+    }
 
-    <!-- Nút quay lại giao diện người dùng -->
-    <div class="mt-4">
-        <a href="/User/Index" class="btn btn-secondary">← Quay về trang người dùng</a>
+    <div class="mt-4 text-center">
+        <a href="/Product/Index" class="btn btn-secondary">← Quay về trang người dùng</a>
     </div>
 </div>

@@ -30,13 +30,18 @@ namespace Supermarket_management.Controllers
             if (user.VaiTro == "Admin")
             {
                 HttpContext.Session.SetString("VaiTro", "Admin");
+                HttpContext.Session.SetInt32("MaTaiKhoan", user.MaTaiKhoan);
+                HttpContext.Session.SetString("TenDangNhap", user.TenDangNhap);
                 return RedirectToAction("Index", "Admin");
             }
             else if (user.VaiTro == "User")
             {
                 HttpContext.Session.SetString("VaiTro", "User");
-                return RedirectToAction("Index", "User");
+                HttpContext.Session.SetInt32("MaTaiKhoan", user.MaTaiKhoan);
+                HttpContext.Session.SetString("TenDangNhap", user.TenDangNhap);
+                return RedirectToAction("Index", "Product");
             }
+
 
             // Default return if no role matches
             ViewBag.Error = "Vai trò không hợp lệ.";
@@ -82,22 +87,17 @@ namespace Supermarket_management.Controllers
                 return View(model);
             }
 
-            // Khi tạo mới TaiKhoan, KHÔNG gán MaTaiKhoan (để mặc định là null hoặc 0)
-            // Sau khi SaveChanges(), EF sẽ tự động lấy giá trị tự tăng từ DB
-            // Lấy mã lớn nhất hiện tại và +1
-            int maxMaTaiKhoan = _context.TaiKhoans.Any() ? _context.TaiKhoans.Max(t => t.MaTaiKhoan) : 0;
-
             var newAccount = new TaiKhoan
             {
-                MaTaiKhoan = maxMaTaiKhoan + 1,
                 TenDangNhap = model.TenDangNhap,
                 MatKhau = model.MatKhau,
                 VaiTro = model.VaiTro
+                // KHÔNG gán MaTaiKhoan
             };
             _context.TaiKhoans.Add(newAccount);
             _context.SaveChanges();
+            // newAccount.MaTaiKhoan sẽ tự động nhận giá trị mới từ DB
 
-            // newAccount.MaTaiKhoan lúc này đã có giá trị mới từ DB
 
 
             // Lấy thông tin khách hàng từ form
@@ -107,21 +107,20 @@ namespace Supermarket_management.Controllers
             var soDienThoai = Request.Form["SoDienThoai"];
             var ngayDangKyStr = Request.Form["NgayDangKy"];
             var ngayDangKy = DateOnly.FromDateTime(DateTime.Now);
-            // Lấy mã khách hàng lớn nhất hiện tại và +1
-            int maxMaKhachHang = _context.KhachHangs.Any() ? _context.KhachHangs.Max(k => k.MaKhachHang) : 0;
 
             var khachHang = new KhachHang
             {
-                MaKhachHang = maxMaKhachHang + 1,
+                // KHÔNG gán MaKhachHang
                 HoTen = hoTen,
                 Email = email,
                 DiaChi = diaChi,
                 Sdt = soDienThoai,
                 NgayDangKy = ngayDangKy,
-                MaKhachHangNavigation = newAccount
+                MaKhachHang = newAccount.MaTaiKhoan 
             };
             _context.KhachHangs.Add(khachHang);
             _context.SaveChanges();
+
 
 
             ViewBag.Success = "Tạo tài khoản thành công!";

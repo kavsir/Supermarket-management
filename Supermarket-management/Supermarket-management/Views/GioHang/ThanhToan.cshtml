@@ -1,0 +1,32 @@
+﻿@model Supermarket_management.Models.ChiTietGioHang
+
+@{
+    ViewData["Title"] = "Xác nhận thanh toán";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Xác nhận thanh toán</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@Model.MaSanPhamNavigation?.TenSp</h5>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="@(Model.MaSanPhamNavigation?.HinhAnh ?? "~/images/no-image.png")"
+                         alt="@Model.MaSanPhamNavigation?.TenSp"
+                         class="img-fluid rounded" style="max-width:120px;max-height:120px;object-fit:cover;" />
+                </div>
+                <div class="col-md-9">
+                    <p><strong>Số lượng:</strong> @Model.SoLuong</p>
+                    <p><strong>Đơn giá:</strong> @Model.MaSanPhamNavigation?.GiaBan?.ToString("N0") VNĐ</p>
+                    <p><strong>Thành tiền:</strong> @(((Model.MaSanPhamNavigation?.GiaBan ?? 0) * (Model.SoLuong ?? 0)).ToString("N0")) VNĐ</p>
+
+                </div>
+            </div>
+            <form asp-action="DatHang" asp-controller="GioHang" method="post" class="mt-3">
+                <input type="hidden" name="maChiTiet" value="@Model.MaChiTiet" />
+                <button type="submit" class="btn btn-success">Xác nhận đặt hàng</button>
+                <a href="@Url.Action("Index", "GioHang")" class="btn btn-secondary ms-2">Quay lại giỏ hàng</a>
+            </form>
+        </div>
+    </div>
+</div>
