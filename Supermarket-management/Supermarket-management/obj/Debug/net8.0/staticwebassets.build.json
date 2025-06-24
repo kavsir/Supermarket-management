@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "Ezqe/9Bar26fwtOIR4PxLXD7Qdbsw/qou/QrwGDJPUM=",
+=======
+  "Hash": "GJmn/veBOv3X/Q7dFt+uF3KwIYmgStS61FdytghDN4U=",
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
   "Source": "Supermarket-management",
   "BasePath": "_content/Supermarket-management",
   "Mode": "Default",
@@ -59,7 +63,32 @@
       "OriginalItemSpec": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Supermarket-management.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+=======
+      "Identity": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
+      "SourceId": "Supermarket-management",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\",
+      "BasePath": "_content/Supermarket-management",
+      "RelativePath": "css/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7i7e9anmdn",
+      "Integrity": "fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
+      "Identity": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
       "SourceId": "Supermarket-management",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\",
@@ -73,8 +102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "xvoxi6oc5t",
+      "Integrity": "w1mNYuscKYj6pXZh4YNqMZBB0mZ41S5DLTlJqyAiRu0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1489,8 +1518,13 @@
   ],
   "Endpoints": [
     {
+<<<<<<< HEAD
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+=======
+      "Route": "css/Login.7i7e9anmdn.css",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1499,7 +1533,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1294"
         },
         {
           "Name": "Content-Type",
@@ -1507,11 +1541,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Fri, 20 Jun 2025 16:50:08 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 14:55:12 GMT"
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
         },
         {
           "Name": "Cache-Control",
@@ -1521,15 +1559,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "7i7e9anmdn"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/Login.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 14:55:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI="
         }
       ]
     },
@@ -1544,7 +1619,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "364"
         },
         {
           "Name": "Content-Type",
@@ -1552,11 +1627,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"w1mNYuscKYj6pXZh4YNqMZBB0mZ41S5DLTlJqyAiRu0=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Fri, 20 Jun 2025 16:50:08 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 14:55:02 GMT"
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
         },
         {
           "Name": "Cache-Control",
@@ -1566,7 +1645,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-w1mNYuscKYj6pXZh4YNqMZBB0mZ41S5DLTlJqyAiRu0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.xvoxi6oc5t.css",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w1mNYuscKYj6pXZh4YNqMZBB0mZ41S5DLTlJqyAiRu0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 14:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xvoxi6oc5t"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w1mNYuscKYj6pXZh4YNqMZBB0mZ41S5DLTlJqyAiRu0="
         }
       ]
     },
@@ -7087,7 +7211,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
         },
         {
           "Name": "Cache-Control",
@@ -7124,7 +7252,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
         },
         {
           "Name": "Cache-Control",
@@ -7161,7 +7293,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
         },
         {
           "Name": "Cache-Control",
@@ -7206,7 +7342,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
+=======
+          "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
         },
         {
           "Name": "Cache-Control",

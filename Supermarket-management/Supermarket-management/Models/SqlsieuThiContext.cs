@@ -84,6 +84,16 @@ public partial class SqlsieuThiContext : DbContext
             entity.Property(e => e.TenDanhMuc).HasMaxLength(100);
         });
 
+        modelBuilder.Entity<DanhMuc>(entity =>
+        {
+            entity.HasKey(e => e.MaDanhMuc).HasName("PK__DanhMuc__B37508871FA29D88");
+
+            entity.ToTable("DanhMuc");
+
+            entity.Property(e => e.MaDanhMuc).ValueGeneratedNever();
+            entity.Property(e => e.TenDanhMuc).HasMaxLength(100);
+        });
+
         modelBuilder.Entity<DonHang>(entity =>
         {
             entity.HasKey(e => e.MaDonHang).HasName("PK__DonHang__129584AD002359A6");

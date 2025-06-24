@@ -5,7 +5,15 @@
       "PackagePath": "staticwebassets\\Supermarket-management.xoqazz2mq4.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+=======
+      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
+>>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
