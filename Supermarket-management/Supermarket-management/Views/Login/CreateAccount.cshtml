@@ -1,11 +1,13 @@
 ﻿@model Supermarket_management.Models.TaiKhoan
-
+@section Styles {
+    <link rel="stylesheet" href="~/css/Login.css" />
+}
 @{
     ViewData["Title"] = "Tạo tài khoản";
     var isAdmin = ViewBag.IsAdmin as bool? ?? false;
 }
-
-<h2>Tạo tài khoản</h2>
+<div class="login-page">
+    <h2 style="text-align:center;">Tạo tài khoản</h2>
 
 <form asp-action="CreateAccount" method="post" id="registerForm">
     <div>
@@ -52,7 +54,7 @@
 
     <button type="submit">Đăng ký</button>
 </form>
-
+</div>
 @if (ViewBag.Error != null)
 {
     <div style="color:red">@ViewBag.Error</div>

@@ -1,10 +1,14 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "Ezqe/9Bar26fwtOIR4PxLXD7Qdbsw/qou/QrwGDJPUM=",
 =======
   "Hash": "GJmn/veBOv3X/Q7dFt+uF3KwIYmgStS61FdytghDN4U=",
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+  "Hash": "DtmAA2zVQGwdb5Xe/32Y+LbXPVUMge5BnCd5KcMY3R4=",
+>>>>>>> origin/main
   "Source": "Supermarket-management",
   "BasePath": "_content/Supermarket-management",
   "Mode": "Default",
@@ -64,8 +68,32 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
 =======
+=======
+      "Identity": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\CreateAccount.css",
+      "SourceId": "Supermarket-management",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\",
+      "BasePath": "_content/Supermarket-management",
+      "RelativePath": "css/CreateAccount#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7i7e9anmdn",
+      "Integrity": "fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CreateAccount.css"
+    },
+    {
+>>>>>>> origin/main
       "Identity": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
       "SourceId": "Supermarket-management",
       "SourceType": "Discovered",
@@ -1519,9 +1547,94 @@
   "Endpoints": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
 =======
+=======
+      "Route": "css/CreateAccount.7i7e9anmdn.css",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\CreateAccount.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 17:33:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7i7e9anmdn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/CreateAccount.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI="
+        }
+      ]
+    },
+    {
+      "Route": "css/CreateAccount.css",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\CreateAccount.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 17:33:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI="
+        }
+      ]
+    },
+    {
+>>>>>>> origin/main
       "Route": "css/Login.7i7e9anmdn.css",
       "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
@@ -1546,10 +1659,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Fri, 20 Jun 2025 16:50:08 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 14:55:12 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
+>>>>>>> origin/main
         },
         {
           "Name": "Cache-Control",
@@ -1594,7 +1711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 14:55:12 GMT"
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1632,10 +1749,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Fri, 20 Jun 2025 16:50:08 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 14:55:02 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
+>>>>>>> origin/main
         },
         {
           "Name": "Cache-Control",
@@ -1672,7 +1793,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 14:55:02 GMT"
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7212,10 +7333,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+>>>>>>> origin/main
         },
         {
           "Name": "Cache-Control",
@@ -7253,10 +7378,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+>>>>>>> origin/main
         },
         {
           "Name": "Cache-Control",
@@ -7294,10 +7423,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+>>>>>>> origin/main
         },
         {
           "Name": "Cache-Control",
@@ -7343,10 +7476,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+>>>>>>> origin/main
         },
         {
           "Name": "Cache-Control",

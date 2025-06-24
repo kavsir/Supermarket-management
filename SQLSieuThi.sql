@@ -155,3 +155,8 @@ INSERT INTO ThanhToan (MaKhachHang, MaHoaDon, NgayThanhToan, PhuongThuc, SoTien)
 
 select * from HoaDon
 select * from DonHang
+<<<<<<< HEAD
+=======
+
+     
+>>>>>>> origin/main

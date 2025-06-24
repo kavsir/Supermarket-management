@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "E:\\chill\\Supermarket-management\\Supermarket-management\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,12 +22,29 @@
     {
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\models\\sqlsieuthicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\models\\sqlsieuthicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|d:\\tk_ptpm\\supermarket-management\\supermarket-management\\supermarket-management\\controllers\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\controllers\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|d:\\tk_ptpm\\supermarket-management\\supermarket-management\\supermarket-management\\views\\donhang\\hoadon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\donhang\\hoadon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|d:\\tk_ptpm\\supermarket-management\\supermarket-management\\supermarket-management\\controllers\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\controllers\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|d:\\tk_ptpm\\supermarket-management\\supermarket-management\\supermarket-management\\views\\giohang\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\giohang\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> origin/main
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -108,6 +126,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|e:\\chill\\supermarket-management\\supermarket-management\\supermarket-management\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|d:\\tk_ptpm\\supermarket-management\\supermarket-management\\supermarket-management\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACE6915-3BAD-41C0-AA0F-7B2CEBD69CF1}|Supermarket-management\\Supermarket-management.csproj|solutionrelative:supermarket-management\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> origin/main
     }
   ],
   "DocumentGroupContainers": [
@@ -117,6 +139,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -158,10 +181,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-23T16:23:31.109Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+>>>>>>> origin/main
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "Supermarket-management.csproj.user",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Supermarket-management.csproj.user",
               "RelativeDocumentMoniker": "Supermarket-management\\Supermarket-management.csproj.user",
@@ -381,10 +424,21 @@
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T12:43:04.88Z",
+=======
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Controllers\\DonHang.cs",
+              "RelativeDocumentMoniker": "Supermarket-management\\Controllers\\DonHang.cs",
+              "ToolTip": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Controllers\\DonHang.cs",
+              "RelativeToolTip": "Supermarket-management\\Controllers\\DonHang.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:27:33.351Z",
+>>>>>>> origin/main
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 18,
               "Title": "CreateAccount.cshtml",
               "DocumentMoniker": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\Login\\CreateAccount.cshtml",
@@ -458,6 +512,67 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T08:19:30.62Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 1,
+              "Title": "HoaDon.cshtml",
+              "DocumentMoniker": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\DonHang\\HoaDon.cshtml",
+              "RelativeDocumentMoniker": "Supermarket-management\\Views\\DonHang\\HoaDon.cshtml",
+              "ToolTip": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\DonHang\\HoaDon.cshtml",
+              "RelativeToolTip": "Supermarket-management\\Views\\DonHang\\HoaDon.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T14:38:11.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Controllers\\GioHang.cs",
+              "RelativeDocumentMoniker": "Supermarket-management\\Controllers\\GioHang.cs",
+              "ToolTip": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Controllers\\GioHang.cs",
+              "RelativeToolTip": "Supermarket-management\\Controllers\\GioHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:18:32.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThanhToan.cshtml",
+              "DocumentMoniker": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\GioHang\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "Supermarket-management\\Views\\GioHang\\ThanhToan.cshtml",
+              "ToolTip": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\GioHang\\ThanhToan.cshtml",
+              "RelativeToolTip": "Supermarket-management\\Views\\GioHang\\ThanhToan.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:17:11.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\DonHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Supermarket-management\\Views\\DonHang\\Index.cshtml",
+              "ToolTip": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\DonHang\\Index.cshtml",
+              "RelativeToolTip": "Supermarket-management\\Views\\DonHang\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T11:19:54.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Supermarket-management\\Views\\GioHang\\Index.cshtml",
+              "ToolTip": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "Supermarket-management\\Views\\GioHang\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T11:17:59.615Z"
+>>>>>>> origin/main
             }
           ]
         }

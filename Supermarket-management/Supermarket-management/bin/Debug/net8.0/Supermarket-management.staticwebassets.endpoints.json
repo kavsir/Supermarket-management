@@ -30,10 +30,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+>>>>>>> origin/main
         }
       ],
       "EndpointProperties": [
@@ -71,10 +75,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Sun, 22 Jun 2025 06:59:43 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 13:38:04 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+>>>>>>> origin/main
         }
       ],
       "EndpointProperties": [
@@ -89,6 +97,88 @@
         {
           "Name": "label",
           "Value": "Supermarket-management.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/CreateAccount.7i7e9anmdn.css",
+      "AssetFile": "css/CreateAccount.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 17:33:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7i7e9anmdn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI="
+        },
+        {
+          "Name": "label",
+          "Value": "css/CreateAccount.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/CreateAccount.css",
+      "AssetFile": "css/CreateAccount.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 17:33:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fx4YwvTEZclOdojpmpJtjVWCimLNPWLDWK7wlgPMveI="
         }
       ]
     },
@@ -120,10 +210,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Fri, 20 Jun 2025 16:50:08 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 14:55:12 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
+>>>>>>> origin/main
         }
       ],
       "EndpointProperties": [
@@ -168,7 +262,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 14:55:12 GMT"
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
         }
       ],
       "EndpointProperties": [
@@ -206,10 +300,14 @@
         {
           "Name": "Last-Modified",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Fri, 20 Jun 2025 16:50:08 GMT"
 =======
           "Value": "Mon, 23 Jun 2025 14:55:02 GMT"
 >>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+=======
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
+>>>>>>> origin/main
         }
       ],
       "EndpointProperties": [
@@ -246,7 +344,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 14:55:02 GMT"
+          "Value": "Mon, 23 Jun 2025 17:30:26 GMT"
         }
       ],
       "EndpointProperties": [
