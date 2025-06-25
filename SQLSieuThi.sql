@@ -122,9 +122,14 @@ INSERT INTO KhachHang (MaKhachHang,HoTen, Email, SDT, DiaChi, NgayDangKy) VALUES
 
 
 INSERT INTO DanhMuc (TenDanhMuc) VALUES
-('Đồ uống'),
-('Thực phẩm'),
-('Gia dụng');
+(N'Đồ uống'),
+(N'Thực phẩm'),
+(N'Gia dụng');
+
+UPDATE DanhMuc SET TenDanhMuc = N'Đồ uống' WHERE MaDanhMuc = 1;
+UPDATE DanhMuc SET TenDanhMuc = N'Thực phẩm' WHERE MaDanhMuc = 2;
+UPDATE DanhMuc SET TenDanhMuc = N'Gia dụng' WHERE MaDanhMuc = 3;
+
 
 INSERT INTO SanPham (TenSP, MoTa, GiaBan, SoLuong, NgayNhap, TrangThai, MaDanhMuc, HinhAnh, MaQuanLy) VALUES
 (N'Nồi cơm điện', N'Nồi cơm điện siêu cấp vip pro', 300000, 50, GETDATE(), N'Còn hàng', 3, 'noicomdien.jpg', 1),

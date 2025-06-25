@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DtmAA2zVQGwdb5Xe/32Y+LbXPVUMge5BnCd5KcMY3R4=",
+  "Hash": "KBqAoEaSMx9OOg5y0aJy0b6pMH2KtuUjTQdKgY8cIfY=",
   "Source": "Supermarket-management",
   "BasePath": "_content/Supermarket-management",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\Khoapub.jpg",
+      "SourceId": "Supermarket-management",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\",
+      "BasePath": "_content/Supermarket-management",
+      "RelativePath": "images/Khoapub#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8cytf0u2ta",
+      "Integrity": "6N0El7ubE5HBxNqAEnlEiLHy3BKtXgXNDvFyhiJDs1c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Khoapub.jpg"
     },
     {
       "Identity": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\js\\site.js",
@@ -1385,7 +1406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 17:33:58 GMT"
+          "Value": "Tue, 24 Jun 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1430,7 +1451,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 17:33:58 GMT"
+          "Value": "Tue, 24 Jun 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1687,6 +1708,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Khoapub.8cytf0u2ta.jpg",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\Khoapub.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6N0El7ubE5HBxNqAEnlEiLHy3BKtXgXNDvFyhiJDs1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 06:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8cytf0u2ta"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Khoapub.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6N0El7ubE5HBxNqAEnlEiLHy3BKtXgXNDvFyhiJDs1c="
+        }
+      ]
+    },
+    {
+      "Route": "images/Khoapub.jpg",
+      "AssetFile": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\Khoapub.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6N0El7ubE5HBxNqAEnlEiLHy3BKtXgXNDvFyhiJDs1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 06:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6N0El7ubE5HBxNqAEnlEiLHy3BKtXgXNDvFyhiJDs1c="
         }
       ]
     },
@@ -6469,7 +6572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+          "Value": "Wed, 25 Jun 2025 06:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6506,7 +6609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+          "Value": "Wed, 25 Jun 2025 06:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6543,7 +6646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+          "Value": "Wed, 25 Jun 2025 06:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6588,7 +6691,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 18:44:25 GMT"
+          "Value": "Wed, 25 Jun 2025 06:32:34 GMT"
         },
         {
           "Name": "Cache-Control",

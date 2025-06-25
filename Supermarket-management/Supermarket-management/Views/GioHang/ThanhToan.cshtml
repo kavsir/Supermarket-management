@@ -10,11 +10,11 @@
         <div class="card-body">
             <h5 class="card-title">@Model.MaSanPhamNavigation?.TenSp</h5>
             <div class="row">
-                <div class="col-md-3">
-                    <img src="@(Model.MaSanPhamNavigation?.HinhAnh ?? "~/images/no-image.png")"
-                         alt="@Model.MaSanPhamNavigation?.TenSp"
-                         class="img-fluid rounded" style="max-width:120px;max-height:120px;object-fit:cover;" />
-                </div>
+                <img src="~/images/@(Model.MaSanPhamNavigation?.HinhAnh ?? "no-image.png")"
+                     alt="@Model.MaSanPhamNavigation?.TenSp"
+                     class="img-fluid rounded"
+                     style="max-width:120px;max-height:120px;object-fit:cover;" />
+
                 <div class="col-md-9">
                     <p><strong>Số lượng:</strong> @Model.SoLuong</p>
                     <p><strong>Đơn giá:</strong> @Model.MaSanPhamNavigation?.GiaBan?.ToString("N0") VNĐ</p>

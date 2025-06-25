@@ -1,9 +1,50 @@
 ﻿@{
-    ViewData["Title"] = "Trang người dùng";
+    ViewData["Title"] = "Trang Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Chào mừng bạn đến trang Admin!</h2>
-<p>Bạn đã đăng nhập thành công với vai trò Admin.</p>
-<a asp-controller="Login" asp-action="CreateAccount" class="btn btn-primary">
-    Tạo tài khoản mới
-</a>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-2 bg-light p-3">
+            <h5>Tổng quan</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" asp-controller="SanPham" asp-action="Index">Quản lý sản phẩm</a></li>
+                <li class="nav-item"><a class="nav-link" asp-controller="DanhMuc" asp-action="Index">Danh mục sản phẩm</a></li>
+                <li class="nav-item"><a class="nav-link" asp-controller="ThongKe" asp-action="Index">Báo cáo thống kê</a></li>
+                <li class="nav-item"><a class="nav-link" asp-controller="User" asp-action="Index">Quản lý User</a></li>
+                <li class="nav-item"><a class="nav-link" asp-controller="DonHang" asp-action="Index">Đơn hàng</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content -->
+        <div class="col-md-10">
+            <h2>Chào mừng bạn đến trang Admin!</h2>
+            <div class="row mt-4">
+                <div class="col-md-3 mb-3">
+                    <a class="btn btn-outline-primary w-100" asp-controller="Product" asp-action="IndexAdmin">Quản lý sản phẩm</a>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <a class="btn btn-outline-primary w-100" asp-controller="DanhMuc" asp-action="Index">Danh mục sản phẩm</a>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <a class="btn btn-outline-primary w-100" asp-controller="ThongKe" asp-action="Index">Báo cáo thống kê</a>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <a class="btn btn-outline-primary w-100" asp-controller="User" asp-action="Index">Quản lý User</a>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <a class="btn btn-outline-primary w-100" asp-controller="DonHang" asp-action="Index">Đơn hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-light text-center">
+    <div class="container">
+        <span class="text-muted">&copy; 2025 - Supermarket_management</span>
+    </div>
+</footer>

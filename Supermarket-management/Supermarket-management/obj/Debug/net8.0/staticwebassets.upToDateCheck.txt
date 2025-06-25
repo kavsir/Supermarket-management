@@ -2,6 +2,7 @@ wwwroot\css\CreateAccount.css
 wwwroot\css\Login.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\Khoapub.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
