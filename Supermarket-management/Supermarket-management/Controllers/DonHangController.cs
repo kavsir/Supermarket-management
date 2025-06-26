@@ -4,11 +4,11 @@ using Supermarket_management.Models;
 
 namespace Supermarket_management.Controllers
 {
-    public class DonHang : Controller
+    public class DonHangController : Controller
     {
         private readonly SqlsieuThiContext _context;
 
-        public DonHang(SqlsieuThiContext context)
+        public DonHangController(SqlsieuThiContext context)
         {
             _context = context;
         }

@@ -16,6 +16,11 @@
     </div>
 
     <div class="form-group">
+        <label asp-for="MoTa"></label>
+        <textarea asp-for="MoTa" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
         <label asp-for="SoLuong"></label>
         <input asp-for="SoLuong" class="form-control" />
     </div>
@@ -23,6 +28,16 @@
     <div class="form-group">
         <label asp-for="GiaBan"></label>
         <input asp-for="GiaBan" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NgayNhap"></label>
+        <input asp-for="NgayNhap" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TrangThai"></label>
+        <input asp-for="TrangThai" class="form-control" />
     </div>
 
     <div class="form-group">
@@ -40,12 +55,3 @@
     <button type="submit" class="btn btn-primary">Lưu</button>
     <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
 </form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
-
-    }
-}

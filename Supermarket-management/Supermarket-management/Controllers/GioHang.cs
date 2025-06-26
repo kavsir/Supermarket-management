@@ -120,7 +120,9 @@ namespace Supermarket_management.Controllers
             if (maTaiKhoan == null)
                 return RedirectToAction("Index", "Login");
 
-            var khachHang = _context.KhachHangs.FirstOrDefault(k => k.MaKhachHangNavigation.MaTaiKhoan == maTaiKhoan);
+            var khachHang = _context.KhachHangs
+                .FirstOrDefault(k => k.MaKhachHangNavigation.MaTaiKhoan == maTaiKhoan);
+
             if (khachHang == null)
                 return RedirectToAction("Index", "Login");
 
@@ -135,59 +137,70 @@ namespace Supermarket_management.Controllers
             if (chiTiet == null)
                 return RedirectToAction("Index");
 
+            var sanPham = chiTiet.MaSanPhamNavigation;
+            if (sanPham == null || sanPham.SoLuong < chiTiet.SoLuong)
+            {
+                ViewBag.Error = "Sản phẩm không đủ số lượng trong kho.";
+                return RedirectToAction("Index");
+            }
+
+            // Trừ số lượng hàng còn lại
+            sanPham.SoLuong -= chiTiet.SoLuong;
+
             // Tạo đơn hàng mới
-            var donHang = new Supermarket_management.Models.DonHang
+            var donHang = new DonHang
             {
                 MaKhachHang = khachHang.MaKhachHang,
                 NgayDat = DateOnly.FromDateTime(DateTime.Now),
                 TrangThai = "Chờ xử lý"
             };
             _context.DonHangs.Add(donHang);
-            _context.SaveChanges();
+            _context.SaveChanges(); // Lưu để lấy MaDonHang
 
             // Thêm chi tiết đơn hàng
-            var chiTietDonHang = new Supermarket_management.Models.ChiTietDonHang
+            var donGia = sanPham.GiaBan ?? 0;
+            var thanhTien = donGia * chiTiet.SoLuong;
+
+            var chiTietDonHang = new ChiTietDonHang
             {
                 MaDonHang = donHang.MaDonHang,
                 MaSanPham = chiTiet.MaSanPham,
                 SoLuong = chiTiet.SoLuong,
-                DonGia = chiTiet.MaSanPhamNavigation?.GiaBan ?? 0,
-                ThanhTien = (chiTiet.MaSanPhamNavigation?.GiaBan ?? 0) * chiTiet.SoLuong
+                DonGia = donGia,
+                ThanhTien = thanhTien
             };
             _context.ChiTietDonHangs.Add(chiTietDonHang);
 
-            // Xóa sản phẩm này khỏi giỏ hàng
+            // Xóa sản phẩm khỏi giỏ hàng
             _context.ChiTietGioHangs.Remove(chiTiet);
-            _context.SaveChanges();
 
-            // Tính tổng tiền cho hóa đơn (ở đây chỉ có 1 sản phẩm)
-            var tongTien = chiTietDonHang.ThanhTien ?? 0;
-
-            // Tạo hóa đơn mới
-            var hoaDon = new HoaDon
+            // Tạo hóa đơn
+            var hoaDon = new HoaDonController
             {
                 MaDonHang = donHang.MaDonHang,
                 NgayLap = DateOnly.FromDateTime(DateTime.Now),
-                TongTien = tongTien,
+                TongTien = thanhTien,
                 TrangThaiTt = "Chưa thanh toán"
             };
             _context.HoaDons.Add(hoaDon);
-            _context.SaveChanges();
+            _context.SaveChanges(); // Lưu để có MaHoaDon
 
-            // Nếu muốn tạo bản ghi thanh toán, thêm đoạn sau (tùy chọn)
+            // Tạo thanh toán
             var thanhToan = new ThanhToan
             {
                 MaKhachHang = khachHang.MaKhachHang,
-                MaHoaDon = hoaDon.MaHoaDon,
+                MaHoaDon = hoaDon.MaHoaDon, // Giờ đã có ID chính xác
                 NgayThanhToan = DateOnly.FromDateTime(DateTime.Now),
-                SoTien = tongTien,
-                PhuongThuc = "Tiền mặt" // hoặc lấy từ form nếu có nhiều phương thức
+                SoTien = thanhTien,
+                PhuongThuc = "Tiền mặt"
             };
             _context.ThanhToans.Add(thanhToan);
             _context.SaveChanges();
 
             return RedirectToAction("Index", "DonHang");
         }
+
+
 
 
     }

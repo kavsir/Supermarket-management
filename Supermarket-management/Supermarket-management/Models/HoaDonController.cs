@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Supermarket_management.Models;
 
-public partial class HoaDon
+public partial class HoaDonController
 {
     public int MaHoaDon { get; set; }
 

@@ -1,0 +1,63 @@
+﻿@model Supermarket_management.Models.TaiKhoan
+@{
+    ViewData["Title"] = "Tạo tài khoản";
+    var isAdmin = ViewBag.IsAdmin as bool? ?? false;
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Tạo tài khoản</h2>
+
+    <form asp-action="CreateAccount" method="post">
+        <div class="form-group">
+            <label asp-for="TenDangNhap"></label>
+            <input asp-for="TenDangNhap" class="form-control" autocomplete="off" />
+        </div>
+        <div class="form-group">
+            <label asp-for="MatKhau"></label>
+            <input asp-for="MatKhau" class="form-control" type="password" />
+        </div>
+        @if (isAdmin)
+        {
+            <div class="form-group">
+                <label asp-for="VaiTro"></label>
+                <select asp-for="VaiTro" class="form-control">
+                    <option value="User">User</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+        }
+        else
+        {
+            <input type="hidden" asp-for="VaiTro" value="User" />
+        }
+
+        <div class="form-group">
+            <label>Họ tên</label>
+            <input type="text" name="HoTen" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="Email" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Địa chỉ</label>
+            <input type="text" name="DiaChi" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Số điện thoại</label>
+            <input type="text" name="SoDienThoai" class="form-control" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Đăng ký</button>
+        <a asp-controller="Login" asp-action="Index" class="btn btn-secondary ml-2">← Quay lại</a>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+    }
+    @if (ViewBag.Success != null)
+    {
+        <div class="alert alert-success mt-3">@ViewBag.Success</div>
+    }
+</div>

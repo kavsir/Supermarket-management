@@ -40,7 +40,6 @@ public class SanPhamController : Controller
         ViewBag.DanhMucs = new SelectList(_context.DanhMucs.ToList(), "MaDanhMuc", "TenDanhMuc");
         return View();
     }
-
     [HttpPost]
     public IActionResult Create(SanPham sp, IFormFile upload)
     {
@@ -60,6 +59,8 @@ public class SanPhamController : Controller
             }
             sp.HinhAnh = fileName;
         }
+
+        sp.NgayNhap ??= DateOnly.FromDateTime(DateTime.Now);
 
         _context.SanPhams.Add(sp);
         _context.SaveChanges();
@@ -89,13 +90,16 @@ public class SanPhamController : Controller
         var spCu = _context.SanPhams.FirstOrDefault(s => s.MaSp == sp.MaSp);
         if (spCu == null) return NotFound();
 
-        // Cập nhật thông tin
+        // Cập nhật các trường thông tin
         spCu.TenSp = sp.TenSp;
-        spCu.SoLuong = sp.SoLuong;
+        spCu.MoTa = sp.MoTa;
         spCu.GiaBan = sp.GiaBan;
+        spCu.SoLuong = sp.SoLuong;
+        spCu.NgayNhap = sp.NgayNhap;
+        spCu.TrangThai = sp.TrangThai;
         spCu.MaDanhMuc = sp.MaDanhMuc;
 
-        // Chỉ cập nhật ảnh nếu có ảnh mới
+        // Nếu người dùng chọn ảnh mới
         if (upload != null && upload.Length > 0)
         {
             var fileName = Path.GetFileName(upload.FileName);
@@ -120,4 +124,5 @@ public class SanPhamController : Controller
         _context.SaveChanges();
         return RedirectToAction("Index");
     }
+ 
 }

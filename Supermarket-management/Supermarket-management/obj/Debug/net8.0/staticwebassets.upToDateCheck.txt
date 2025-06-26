@@ -9,6 +9,7 @@ wwwroot\images\illust_74628110_20230511_211937.jpg
 wwwroot\images\illust_75872173_20220707_234428.jpg
 wwwroot\images\illust_80874248_20220707_230256.png
 wwwroot\images\images.jpg
+wwwroot\images\Khoapub.jpg
 wwwroot\images\tải xuống.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

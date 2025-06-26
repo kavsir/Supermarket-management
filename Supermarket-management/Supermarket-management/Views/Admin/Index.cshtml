@@ -7,15 +7,15 @@
     <div class="row">
         <!-- Sidebar -->
         <div class="col-md-2 bg-light p-3">
-            <h5>Trang chủ</h5>
+            <h5>Tổng quan</h5>
             <ul class="nav flex-column">
-                <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="Dashboard">Tổng quan</a></li>
                 <li class="nav-item"><a class="nav-link" asp-controller="SanPham" asp-action="Index">Quản lý sản phẩm</a></li>
                 <li class="nav-item"><a class="nav-link" asp-controller="DanhMuc" asp-action="Index">Danh mục sản phẩm</a></li>
                 <li class="nav-item"><a class="nav-link" asp-controller="ThongKe" asp-action="Index">Báo cáo thống kê</a></li>
-                <li class="nav-item"><a class="nav-link" asp-controller="LienHe" asp-action="Index">Danh sách liên hệ</a></li>
                 <li class="nav-item"><a class="nav-link" asp-controller="User" asp-action="Index">Quản lý User</a></li>
                 <li class="nav-item"><a class="nav-link" asp-controller="DonHang" asp-action="Index">Đơn hàng</a></li>
+                <a asp-controller="Admin" asp-action="CreateAccount" class="btn btn-primary">Tạo tài khoản mới</a>
+
             </ul>
         </div>
 
@@ -32,9 +32,7 @@
                 <div class="col-md-3 mb-3">
                     <a class="btn btn-outline-primary w-100" asp-controller="ThongKe" asp-action="Index">Báo cáo thống kê</a>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <a class="btn btn-outline-primary w-100" asp-controller="LienHe" asp-action="Index">Danh sách liên hệ</a>
-                </div>
+
                 <div class="col-md-3 mb-3">
                     <a class="btn btn-outline-primary w-100" asp-controller="User" asp-action="Index">Quản lý User</a>
                 </div>

@@ -1,12 +1,22 @@
-﻿@model Supermarket_management.Models.DanhMuc
+﻿@model Supermarket_management.Models.SanPham
+@{
+    ViewData["Title"] = "Chỉnh sửa danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var danhMucs = ViewBag.DanhMucs as SelectList;
+}
 
-<h2>Chỉnh sửa danh mục</h2>
+<h3>Chỉnh sửa danh mục cho sản phẩm: <b>@Model.TenSp</b></h3>
+
 <form asp-action="Edit" method="post">
-    <input type="hidden" asp-for="MaDanhMuc" />
+    <input type="hidden" name="id" value="@Model.MaSp" />
+
     <div class="form-group">
-        <label asp-for="TenDanhMuc"></label>
-        <input asp-for="TenDanhMuc" class="form-control" />
+        <label>Danh mục mới</label>
+        <select name="MaDanhMuc" class="form-control" asp-items="danhMucs">
+            <option value="">-- Chọn danh mục --</option>
+        </select>
     </div>
-    <button type="submit" class="btn btn-primary">Lưu</button>
-    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    <a asp-action="Index" asp-controller="DanhMuc" class="btn btn-secondary">Quay lại</a>
 </form>

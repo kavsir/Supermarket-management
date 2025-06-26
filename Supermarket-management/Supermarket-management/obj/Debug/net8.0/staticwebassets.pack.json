@@ -5,22 +5,15 @@
       "PackagePath": "staticwebassets\\Supermarket-management.xoqazz2mq4.bundle.scp.css"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
-=======
-=======
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\CreateAccount.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\CreateAccount.css",
       "PackagePath": "staticwebassets\\css\\CreateAccount.css"
     },
     {
->>>>>>> origin/main
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "D:\\TK_PTPM\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
->>>>>>> 42acbdec680fb9e1aafc85043be2c97690483f0b
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
@@ -34,6 +27,10 @@
     {
       "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\1671701528277.jpg",
       "PackagePath": "staticwebassets\\images\\1671701528277.jpg"
+    },
+    {
+      "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\Khoapub.jpg",
+      "PackagePath": "staticwebassets\\images\\Khoapub.jpg"
     },
     {
       "Id": "E:\\chill\\Supermarket-management\\Supermarket-management\\Supermarket-management\\wwwroot\\images\\__seele_vollerei_seele_and_seele_vollerei_honkai_and_1_more_drawn_by_sprygon__sample-423c95fbadb411eeffb4eb0b06a437b3.jpg",

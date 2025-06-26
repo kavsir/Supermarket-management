@@ -6,11 +6,14 @@
 
 <h2>Quản lý sản phẩm theo danh mục</h2>
 
-<a asp-action="Create" asp-controller="SanPham" class="btn btn-success mb-3">Thêm sản phẩm</a>
-
+<a asp-action="Create" asp-controller="DanhMuc" class="btn btn-success mb-3">Thêm danh mục</a>
+<a asp-controller="Admin" asp-action="Index" class="btn btn-secondary mt-4">← Về trang chủ Admin</a>
 @foreach (var danhMuc in Model)
 {
-    <h4 class="mt-4">Danh mục: @danhMuc.TenDanhMuc (@danhMuc.SanPhams?.Count() sản phẩm)</h4>
+    <h4 class="mt-4">
+        Danh mục: @danhMuc.TenDanhMuc (@danhMuc.SanPhams?.Count() sản phẩm)
+     
+    </h4>
 
     @if (danhMuc.SanPhams != null && danhMuc.SanPhams.Any())
     {
@@ -23,7 +26,6 @@
                     <th>Ảnh</th>
                     <th>Số lượng</th>
                     <th>Giá bán</th>
-                    <th>Danh mục</th>
                     <th>Tác vụ</th>
                 </tr>
             </thead>
@@ -44,12 +46,13 @@
                             }
                         </td>
                         <td>@item.SoLuong</td>
-                        <td>@item.GiaBan. đ</td>
-                        <td>@danhMuc.TenDanhMuc</td>
+                        <td>@item.GiaBan đ</td>
                         <td>
-                            <a asp-action="Edit" asp-controller="SanPham" asp-route-id="@item.MaSp" class="btn btn-warning btn-sm">Sửa</a>
-                            <a asp-action="Delete" asp-controller="SanPham" asp-route-id="@item.MaSp" class="btn btn-danger btn-sm"
-                               onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');">Xóa</a>
+                            <a asp-action="RemoveFromCategory" asp-route-id="@item.MaSp"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Bạn có chắc muốn gỡ sản phẩm này khỏi danh mục không?');">Gỡ</a>
+                            <a asp-action="Edit" asp-controller="DanhMuc" asp-route-id="@item.MaSp" class="btn btn-warning btn-sm">Sửa</a>
+
                         </td>
                     </tr>
                     stt++;
@@ -59,6 +62,8 @@
     }
     else
     {
-        <div>Không có sản phẩm nào trong danh mục này.</div>
+        <div class="text-muted">Không có sản phẩm nào trong danh mục này.</div>
     }
 }
+
+

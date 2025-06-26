@@ -17,7 +17,7 @@ public partial class ThanhToan
 
     public decimal? SoTien { get; set; }
 
-    public virtual HoaDon? MaHoaDonNavigation { get; set; }
+    public virtual HoaDonController? MaHoaDonNavigation { get; set; }
 
     public virtual KhachHang? MaKhachHangNavigation { get; set; }
 }

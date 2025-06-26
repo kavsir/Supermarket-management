@@ -20,15 +20,40 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 justify-content-between">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Danh Mục</a>
-                        </li>
-                        <li class="nav-item">
-                            <form class="d-flex" asp-controller="User" asp-action="Search" method="get" style="margin-bottom:0;">
-                                <input class="form-control me-2" type="search" name="query" placeholder="Tìm sản phẩm..." aria-label="Search" style="width:250px;">
-                                <button class="btn btn-outline-primary" type="submit">Tìm kiếm</button>
-                            </form>
-                        </li>
+                        @if (Context.Session.GetString("VaiTro") != null && ViewBag.DanhMucs != null)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Danh Mục
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @if (ViewBag.DanhMucs is List<Supermarket_management.Models.DanhMuc> danhMucs)
+                                    {
+                                        foreach (var dm in danhMucs)
+                                        {
+                                            <li>
+                                                <a class="dropdown-item" asp-controller="Product" asp-action="Index" asp-route-maDanhMuc="@dm.MaDanhMuc">
+                                                    @dm.TenDanhMuc
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+
+                                </ul>
+                            </li>
+                        }
+
+
+                        @if (Context.Session.GetString("VaiTro") != null)
+                        {
+                            <li class="nav-item">
+                                <form class="d-flex" asp-controller="User" asp-action="Search" method="get" style="margin-bottom:0;">
+                                    <input class="form-control me-2" type="search" name="query" placeholder="Tìm sản phẩm..." aria-label="Search" style="width:250px;">
+                                    <button class="btn btn-outline-primary" type="submit">Tìm kiếm</button>
+                                </form>
+                            </li>
+                        }
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="GioHang" asp-action="Index">Giỏ hàng</a>
                         </li>
@@ -38,9 +63,25 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="DonHang" asp-action="HoaDon">Hoá Đơn</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="UserInformation">Thông tin cá nhân</a>
-                        </li>
+                        @if (Context.Session.GetString("VaiTro") != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="User" asp-action="ThongTinCaNhan">Thông tin cá nhân</a>
+                            </li>
+                            <li class="nav-item">
+                                <form asp-controller="Login" asp-action="DangXuat" method="post" class="form-inline">
+                                    <button type="submit" class="btn btn-link nav-link" style="text-decoration: none;">Đăng xuất</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Login" asp-action="Index">Đăng nhập</a>
+                            </li>
+                        }
+
+
                     </ul>
                 </div>
             </div>
