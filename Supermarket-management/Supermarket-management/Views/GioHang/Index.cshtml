@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+@model IEnumerable<Supermarket_management.Models.ChiTietGioHang>
+
+<h2>Giỏ hàng của bạn</h2>
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Bạn chưa có sản phẩm nào trong giỏ hàng.</div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tác vụ</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="~/images/@(item.MaSanPhamNavigation?.HinhAnh ?? "no-image.png")" alt="@item.MaSanPhamNavigation?.TenSp" style="width:80px;height:80px;object-fit:cover;" />
+                    </td>
+                    <td>@item.MaSanPhamNavigation?.TenSp</td>
+                    <td>@item.MaSanPhamNavigation?.GiaBan?.ToString("N0") VNĐ</td>
+                    <td>@item.SoLuong</td>
+                    <td>
+                        <form asp-action="ThanhToan" asp-controller="GioHang" method="get" style="display:inline;">
+                            <input type="hidden" name="maChiTiet" value="@item.MaChiTiet" />
+                            <button type="submit" class="btn btn-success btn-sm">Đặt hàng</button>
+                        </form>
+
+                        <form asp-action="RemoveFromCart" asp-controller="GioHang" method="post" style="display:inline;">
+                            <input type="hidden" name="maChiTiet" value="@item.MaChiTiet" />
+                            <button type="submit" class="btn btn-danger btn-sm ms-1">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<div class="mt-4">
+    <a href="/Product/Index" class="btn btn-secondary">← Quay về trang người dùng</a>
+</div>

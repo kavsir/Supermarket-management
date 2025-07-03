@@ -1,0 +1,10 @@
+﻿@model Supermarket_management.Models.KhachHang
+
+<h2>Thông tin cá nhân</h2>
+<ul>
+    <li><strong>Họ tên:</strong> @Model.HoTen</li>
+    <li><strong>Email:</strong> @Model.Email</li>
+    <li><strong>Số điện thoại:</strong> @Model.Sdt</li>
+    <li><strong>Địa chỉ:</strong> @Model.DiaChi</li>
+    <li><strong>Ngày đăng ký:</strong> @Model.NgayDangKy?.ToString("dd/MM/yyyy")</li>
+</ul>

@@ -1,0 +1,26 @@
+﻿@model Supermarket_management.Models.TaiKhoan
+@section Styles {
+    <link rel="stylesheet" href="~/css/Login.css" />
+}
+<div class="login-page">
+    <h2 style=" text-align:center;">Đăng nhập</h2>
+    <form asp-action="Index" method="post">
+        <div>
+            <label>Tên đăng nhập</label>
+            <input asp-for="TenDangNhap" />
+        </div>
+        <div>
+            <label>Mật khẩu</label>
+            <input asp-for="MatKhau" type="password" />
+        </div>
+        <button type="submit">Đăng nhập</button>
+    </form>
+    @if (ViewBag.Error != null)
+    {
+        <div style="color:red">@ViewBag.Error</div>
+    }
+
+    <div style="margin-top:20px; text-align:center;">
+        <a asp-action="CreateAccount" asp-controller="Login" class="btn btn-secondary">Tạo tài khoản mới</a>
+    </div>
+</div>
