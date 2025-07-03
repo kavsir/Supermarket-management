@@ -130,8 +130,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\DonHang\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T11:19:54.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T11:19:54.877Z"
             },
             {
               "$type": "Document",
@@ -143,8 +142,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T06:06:21.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:06:21.862Z"
             },
             {
               "$type": "Document",
@@ -156,8 +154,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\DonHang\\HoaDon.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T14:38:11.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T14:38:11.513Z"
             },
             {
               "$type": "Document",
@@ -169,8 +166,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\GioHang\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T11:17:59.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T11:17:59.615Z"
             },
             {
               "$type": "Document",
@@ -195,8 +191,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Login\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T06:26:11.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:26:11.577Z"
             },
             {
               "$type": "Document",
@@ -208,8 +203,7 @@
               "RelativeToolTip": "Supermarket-management\\Controllers\\Product.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAhwBQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T05:04:25.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:04:25.649Z"
             },
             {
               "$type": "Document",
@@ -221,8 +215,7 @@
               "RelativeToolTip": "Supermarket-management\\Controllers\\DanhMuc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T20:25:24.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:25:24.533Z"
             },
             {
               "$type": "Document",
@@ -234,8 +227,7 @@
               "RelativeToolTip": "Supermarket-management\\Models\\SanPham.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:21:09.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:21:09.972Z"
             },
             {
               "$type": "Document",
@@ -247,8 +239,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Product\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T06:08:18.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:08:18.679Z"
             },
             {
               "$type": "Document",
@@ -260,8 +251,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T20:23:23.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:23:23.573Z"
             },
             {
               "$type": "Document",
@@ -273,8 +263,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\DanhMuc\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T20:31:04.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:31:04.304Z"
             },
             {
               "$type": "Document",
@@ -286,8 +275,7 @@
               "RelativeToolTip": "Supermarket-management\\Controllers\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T20:23:18.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:23:18.732Z"
             },
             {
               "$type": "Document",
@@ -299,8 +287,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Product\\IndexAdmin.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:56:36.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:56:36.779Z"
             },
             {
               "$type": "Document",
@@ -312,8 +299,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\DanhMuc\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T20:40:05.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:40:05.572Z"
             },
             {
               "$type": "Document",
@@ -325,8 +311,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\DanhMuc\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T20:40:58.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:40:58.24Z"
             },
             {
               "$type": "Document",
@@ -338,8 +323,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\DanhMuc\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T20:39:42.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:39:42.501Z"
             },
             {
               "$type": "Document",
@@ -351,8 +335,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:24:52.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:24:52.995Z"
             },
             {
               "$type": "Document",
@@ -364,8 +347,7 @@
               "RelativeToolTip": "Supermarket-management\\Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:25:52.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:25:52.449Z"
             },
             {
               "$type": "Document",
@@ -377,8 +359,7 @@
               "RelativeToolTip": "Supermarket-management\\Controllers\\DonHang.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAgwC8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T11:27:33.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T11:27:33.351Z"
             },
             {
               "$type": "Document",
@@ -390,8 +371,7 @@
               "RelativeToolTip": "Supermarket-management\\Models\\ChiTietDonHang.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T19:57:38.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T19:57:38.045Z"
             },
             {
               "$type": "Document",
