@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Supermarket_management.Models.SanPham>
+@{
+    ViewData["Title"] = "Kết quả tìm kiếm";
+    var keyword = ViewBag.Keyword as string ?? "";
+}
+
+<h2 class="text-center mb-4">Kết quả tìm kiếm cho: "@keyword"</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning text-center">Không tìm thấy sản phẩm phù hợp.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var sp in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <a asp-controller="Product" asp-action="Details" asp-route-id="@sp.MaSp">
+                        <img src="~/images/@(sp.HinhAnh ?? "no-image.png")" class="card-img-top" alt="@sp.TenSp" style="height:180px; object-fit:cover;">
+                    </a>
+                    <div class="card-body text-center">
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@sp.MaSp" class="text-decoration-none">
+                            <h5 class="card-title">@sp.TenSp</h5>
+                        </a>
+                        <p class="card-text text-primary fw-bold">@sp.GiaBan?.ToString("N0") VNĐ</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

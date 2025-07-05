@@ -1,0 +1,80 @@
+﻿@model Supermarket_management.Models.TaiKhoan
+@section Styles {
+    <link rel="stylesheet" href="~/css/Login.css" />
+}
+@{
+    ViewData["Title"] = "Tạo tài khoản";
+    var isAdmin = ViewBag.IsAdmin as bool? ?? false;
+}
+<div class="login-page">
+    <h2 style="text-align:center;">Tạo tài khoản</h2>
+
+<form asp-action="CreateAccount" method="post" id="registerForm">
+    <div>
+        <label asp-for="TenDangNhap"></label>
+        <input asp-for="TenDangNhap" autocomplete="off" id="TenDangNhap" />
+    </div>
+    <div>
+        <label asp-for="MatKhau"></label>
+        <input asp-for="MatKhau" type="password" autocomplete="off" id="MatKhau" />
+    </div>
+    @if (isAdmin)
+    {
+        <div>
+            <label asp-for="VaiTro"></label>
+            <select asp-for="VaiTro">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+    }
+    else
+    {
+        <input type="hidden" asp-for="VaiTro" value="User" />
+    }
+
+    <!-- Thông tin khách hàng -->
+    <div>
+        <label for="HoTen">Họ tên</label>
+        <input type="text" name="HoTen" id="HoTen" required />
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email" required />
+    </div>
+    <div>
+        <label for="DiaChi">Địa chỉ</label>
+        <input type="text" name="DiaChi" id="DiaChi" required />
+    </div>
+    <div>
+        <label for="SoDienThoai">Số điện thoại</label>
+        <input type="text" name="SoDienThoai" id="SoDienThoai" required />
+    </div>
+    <!-- Thêm các trường khác nếu cần -->
+
+    <button type="submit">Đăng ký</button>
+        <a asp-controller="Login" asp-action="Index" class="btn btn-secondary mt-4">← Về trang Đăng nhập</a>
+</form>
+
+</div>
+@if (ViewBag.Error != null)
+{
+    <div style="color:red">@ViewBag.Error</div>
+}
+@if (ViewBag.Success != null)
+{
+    <div style="color:green">@ViewBag.Success</div>
+}
+
+<script>
+    document.getElementById('registerForm').addEventListener('submit', function (e) {
+        var tenDangNhap = document.getElementById('TenDangNhap').value;
+        var matKhau = document.getElementById('MatKhau').value;
+        var regex = /^[A-Za-z0-9_]+$/;
+
+        if (!regex.test(tenDangNhap) || !regex.test(matKhau)) {
+            alert('Tên đăng nhập và mật khẩu chỉ được dùng chữ cái không dấu, số và dấu gạch dưới.');
+            e.preventDefault();
+        }
+    });
+</script>

@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Supermarket_management.Models.SanPham>
+
+<h2 style=" text-align:center;">Danh sách sản phẩm</h2>
+<div class="row">
+    @foreach (var sp in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="@sp.MaSp">
+                    <img src="~/images/@(sp.HinhAnh ?? "no-image.png")" alt="@sp.TenSp" style="height:180px;object-fit:cover;text-align: center;">
+                </a>
+                <div class="card-body text-center">
+                    <a asp-controller="Product" asp-action="Details" asp-route-id="@sp.MaSp" class="text-decoration-none">
+                        <h5 class="card-title">@sp.TenSp</h5>
+                    </a>
+                    <a asp-controller="Product" asp-action="Details" asp-route-id="@sp.MaSp" class="text-decoration-none">
+                        <p class="card-text text-primary fw-bold">@sp.GiaBan?.ToString("N0") VNĐ</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,69 @@
+﻿@model List<Supermarket_management.Models.DanhMuc>
+@{
+    ViewData["Title"] = "Quản lý theo danh mục";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Quản lý sản phẩm theo danh mục</h2>
+
+<a asp-action="Create" asp-controller="DanhMuc" class="btn btn-success mb-3">Thêm danh mục</a>
+<a asp-controller="Admin" asp-action="Index" class="btn btn-secondary mt-4">← Về trang chủ Admin</a>
+@foreach (var danhMuc in Model)
+{
+    <h4 class="mt-4">
+        Danh mục: @danhMuc.TenDanhMuc (@danhMuc.SanPhams?.Count() sản phẩm)
+     
+    </h4>
+
+    @if (danhMuc.SanPhams != null && danhMuc.SanPhams.Any())
+    {
+        var stt = 1;
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Ảnh</th>
+                    <th>Số lượng</th>
+                    <th>Giá bán</th>
+                    <th>Tác vụ</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in danhMuc.SanPhams)
+                {
+                    <tr>
+                        <td>@stt</td>
+                        <td>@item.TenSp</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.HinhAnh))
+                            {
+                                <img src="~/images/@item.HinhAnh" width="100" height="80" />
+                            }
+                            else
+                            {
+                                <span>Không có ảnh</span>
+                            }
+                        </td>
+                        <td>@item.SoLuong</td>
+                        <td>@item.GiaBan đ</td>
+                        <td>
+                            <a asp-action="RemoveFromCategory" asp-route-id="@item.MaSp"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Bạn có chắc muốn gỡ sản phẩm này khỏi danh mục không?');">Gỡ</a>
+                            <a asp-action="Edit" asp-controller="DanhMuc" asp-route-id="@item.MaSp" class="btn btn-warning btn-sm">Sửa</a>
+
+                        </td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="text-muted">Không có sản phẩm nào trong danh mục này.</div>
+    }
+}
+
+
